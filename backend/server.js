@@ -4,6 +4,7 @@ const colors = require("colors");
 const connectDB = require("./config/db");
 const { errorHandler } = require("./middleware/errorMiddleware");
 const cors = require("cors");
+const path = require('path');
 
 const PORT = process.env.PORT || 5000;
 
